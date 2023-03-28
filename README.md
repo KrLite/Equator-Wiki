@@ -7,7 +7,7 @@ layout: landing
 
 # 🪐 Landing on Equator
 
-## How Equator Works?
+## How Comes Equator?
 
 **Equator** is a Powerful Modding Library for Minecraft which focuses on making rendering stuffs easier.
 
