@@ -17,7 +17,7 @@ It may be a headache to many modders to render stuffs in Minecraft, through **Mo
 
 ## First Steps to Take
 
-### 1. Add the dependency
+### Introduce Equator to Your Project
 
 1. Implement **Equator** to your project through **[JitPack](https://jitpack.io)** or **[Modrinth Maven](https://api.modrinth.com/maven).**
 
