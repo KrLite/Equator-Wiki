@@ -19,11 +19,11 @@ It may be a headache to many modders to render stuffs in Minecraft, through **Mo
 
 ### Introduce Equator to Your Project
 
-1. Implement **Equator** to your project through **[JitPack](https://jitpack.io)** or **[Modrinth Maven](https://api.modrinth.com/maven).**
+1. Implement **Equator** to your project through [**JitPack**](https://jitpack.io) or [**Modrinth Maven**](https://api.modrinth.com/maven)**.**
 
 {% tabs %}
 {% tab title="JitPack" %}
-
+{% code title="build.gradle" overflow="wrap" %}
 ```groovy
 repositories {
     maven { url "https://jitpack.io" }
@@ -33,11 +33,11 @@ dependencies {
     modImplementation "com.github.KrLite:Equator:xxx" // Not completed yet
 }
 ```
-
+{% endcode %}
 {% endtab %}
 
 {% tab title="Modrinth Maven" %}
-
+{% code title="build.gradle" overflow="wrap" %}
 ```groovy
 repositories {
     maven { url "https://api.modrinth.com/maven" }
@@ -47,17 +47,19 @@ dependencies {
     modImplementation "maven.modrinth:equator:xxx" // Not completed yet
 }
 ```
-
+{% endcode %}
 {% endtab %}
 {% endtabs %}
 
 2. Add the dependency to your `fabric/quilt.mod.json` file.
 
+{% code overflow="wrap" %}
 ```json
 "depends": {
     "equator": "*"
 }
 ```
+{% endcode %}
 
 3. Re-run the gradle task.
 
