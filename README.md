@@ -9,11 +9,15 @@ layout: landing
 
 ## How Equator Works?
 
-
+Example text.
 
 ## First Steps to Take
 
+Example text.
 
+1. A
+2. B
+3. C
 
 {% content-ref url="broken-reference" %}
 [Broken link](broken-reference)
