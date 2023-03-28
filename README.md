@@ -19,7 +19,7 @@ It may be a headache to many modders to render stuffs in Minecraft, through **Mo
 
 ### Introduce Equator to Your Project
 
-1. Implement **Equator** to your project through [**JitPack**](https://jitpack.io) or [**Modrinth Maven**](https://api.modrinth.com/maven)**.**
+1. Implement **Equator** to your project through [**JitPack**](https://jitpack.io) or [**Modrinth Maven.**](https://api.modrinth.com/maven)
 
 {% tabs %}
 {% tab title="JitPack" %}
