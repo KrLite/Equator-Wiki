@@ -30,10 +30,9 @@ repositories {
 }
 
 dependencies {
-    modImplementation "maven.modrinth:equator:a.b.c-v?"
-    // 'a.b.c' stands for Minecraft version while 'v?' stands for Equator version
-    // For example, 1.19.4-v2.0.0 is a capable version.
-    // Not every version of Minecraft is supported, remember to check the versions on Modrinth before you implement!
+    modImplementation "maven.modrinth:equator:v?"
+    // 'v?' stands for Equator's version, for example, 'v2.0.0' is a capable version.
+    // Not every version is supported on different Minecraft versions, remember to check them on Modrinth before you implement!
 }
 ```
 {% endcode %}
