@@ -22,20 +22,6 @@ It may be a headache to many modders to render stuffs in Minecraft, through **Mo
 1. Implement **Equator** to your project through [**JitPack**](https://jitpack.io) or [**Modrinth Maven.**](https://docs.modrinth.com/docs/tutorials/maven/)****
 
 {% tabs %}
-{% tab title="JitPack" %}
-{% code title="build.gradle" overflow="wrap" %}
-```groovy
-repositories {
-    maven { url "https://jitpack.io" }
-}
-
-dependencies {
-    modImplementation "com.github.KrLite:Equator:xxx" // Not completed yet
-}
-```
-{% endcode %}
-{% endtab %}
-
 {% tab title="Modrinth Maven" %}
 {% code title="build.gradle" overflow="wrap" %}
 ```groovy
@@ -44,7 +30,25 @@ repositories {
 }
 
 dependencies {
-    modImplementation "maven.modrinth:equator:xxx" // Not completed yet
+    modImplementation "maven.modrinth:equator:a.b.c-v?"
+    // 'a.b.c' stands for Minecraft version while 'v?' stands for Equator version
+    // For example, 1.19.4-v2.0.0 is a capable version.
+    // Not every version of Minecraft is supported, remember to check the versions on Modrinth before you implement!
+}
+```
+{% endcode %}
+{% endtab %}
+
+{% tab title="JitPack" %}
+{% code title="build.gradle" overflow="wrap" %}
+```groovy
+repositories {
+    maven { url "https://jitpack.io" }
+}
+
+dependencies {
+    modImplementation "com.github.KrLite:Equator:xxx"
+    // Not completed yet
 }
 ```
 {% endcode %}
