@@ -31,28 +31,25 @@ repositories {
 
 dependencies {
     modImplementation "maven.modrinth:equator:v?"
-    // 'v?' stands for Equator's version, for example, 'v2.0.0' is a capable version.
-    // Not every version is supported on different Minecraft versions, remember to check them on Modrinth before you implement!
 }
 ```
 {% endcode %}
 {% endtab %}
 
 {% tab title="JitPack" %}
-{% code title="build.gradle" overflow="wrap" %}
-```groovy
-repositories {
+<pre class="language-groovy" data-title="build.gradle" data-overflow="wrap"><code class="lang-groovy">repositories {
     maven { url "https://jitpack.io" }
 }
 
 dependencies {
-    modImplementation "com.github.KrLite:Equator:xxx"
-    // Not completed yet
+    modImplementation <a data-footnote-ref href="#user-content-fn-1">"com.github.KrLite:Equator:v?"</a>
 }
-```
-{% endcode %}
+</code></pre>
 {% endtab %}
 {% endtabs %}
+
+* `v?` stands for **Equator**'s version, which is **equivalent to the release tag,** for example, `v2.0.0`. Using the latest version is recommended.
+* Not all versions support all Minecraft versions, **please check the requirements before implementing.**
 
 2. Add the dependency to your `fabric/quilt.mod.json` file.
 
@@ -77,3 +74,5 @@ dependencies {
 {% content-ref url="broken-reference" %}
 [Broken link](broken-reference)
 {% endcontent-ref %}
+
+[^1]: or, `"com.github.KrLite.Equator:build:v?"`
