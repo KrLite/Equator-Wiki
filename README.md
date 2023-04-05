@@ -81,6 +81,6 @@ If you want to only include modules apart from **Equator** perspectively into yo
 [Broken link](broken-reference)
 {% endcontent-ref %}
 
-[^1]: Equivalent to
+[^1]: Equivalents to
 
     `"com.github.KrLite.Equator:build:v?"`
