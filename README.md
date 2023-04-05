@@ -24,7 +24,7 @@ It may be a headache to many modders to render stuffs in Minecraft, through **Mo
 {% tabs %}
 {% tab title="Modrinth Maven" %}
 {% code title="build.gradle" overflow="wrap" %}
-```groovy
+```gradle
 repositories {
     maven { url "https://api.modrinth.com/maven" }
 }
@@ -37,7 +37,7 @@ dependencies {
 {% endtab %}
 
 {% tab title="JitPack" %}
-<pre class="language-groovy" data-title="build.gradle" data-overflow="wrap"><code class="lang-groovy">repositories {
+<pre class="language-gradle" data-title="build.gradle" data-overflow="wrap"><code class="lang-gradle">repositories {
     maven { url "https://jitpack.io" }
 }
 
@@ -50,6 +50,12 @@ dependencies {
 
 * `v?` stands for **Equator**'s version, which is **equivalent to the release tag,** for example, `v2.0.0`. Using the latest version is recommended.
 * Not all versions support all Minecraft versions, **please check the requirements before implementing.**
+
+If you want to only include modules apart from **Equator** perspectively into your mod, here's an instruction.
+
+{% content-ref url="miscellaneous/module-implementation.md" %}
+[module-implementation.md](miscellaneous/module-implementation.md)
+{% endcontent-ref %}
 
 2. Add the dependency to your `fabric/quilt.mod.json` file.
 
@@ -75,4 +81,6 @@ dependencies {
 [Broken link](broken-reference)
 {% endcontent-ref %}
 
-[^1]: or, `"com.github.KrLite.Equator:build:v?"`
+[^1]: Is equivalent to
+
+    `"com.github.KrLite.Equator:build:v?"`
