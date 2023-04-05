@@ -59,3 +59,7 @@ Module **Visual** contains classes including **AccurateColor** and **Palette.**
 {% endtabs %}
 
 > All modules' methods and classes are strictly in line with **Equator**'s, which enables you switching to **Equator** at any time.
+
+{% content-ref url="../" %}
+[..](../)
+{% endcontent-ref %}
