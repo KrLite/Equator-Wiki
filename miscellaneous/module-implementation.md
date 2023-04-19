@@ -6,7 +6,9 @@ description: Include modules perspectively into your mod.
 
 **Equator** should not be included into your mod as it has many independent functions. However, this instruction shows you how to include **Equator** as modules.
 
-First of all, add **JitPack** to your repositories.
+Note well that all the modules **work as mods,** and depend on Fabric because the usage of certain functions. However, they are safe to be included in your project.
+
+First of all, add [**JitPack**](https://jitpack.io/#KrLite/Equator-v2) to your repositories.
 
 {% code title="build.gradle" overflow="wrap" %}
 ```gradle
@@ -15,8 +17,6 @@ repositories {
 }
 ```
 {% endcode %}
-
-> Module implementation is only due to the support of [**JitPack.**](https://jitpack.io/#KrLite/Equator-v2)****
 
 ## Including Modules
 
@@ -30,7 +30,7 @@ dependencies {
 ```
 {% endcode %}
 
-Module **Animation** contains classes including **Animation, Interpolation** and **Slices.**
+Module **Animation** contains classes including **Animation, Interpolation** and **Slice.**
 {% endtab %}
 
 {% tab title="Math" %}
@@ -58,8 +58,8 @@ Module **Visual** contains classes including **AccurateColor** and **Palette.**
 {% endtab %}
 {% endtabs %}
 
-* Not all versions support all Minecraft versions, **please check the requirements before implementing.**
 * `v?` stands for **Equator**'s version, which is **equivalent to the release tag,** for example, `v2.0.0`. Using the latest version is recommended.
+* Not all versions support all Minecraft versions, **please check the requirements before implementing.**
 
 > All modules' methods and classes are strictly in line with **Equator**'s, which enables you switching to **Equator** at any time.
 
