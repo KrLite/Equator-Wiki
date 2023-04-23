@@ -19,7 +19,7 @@ It may be a headache to many modders to render stuffs in Minecraft, through **Mo
 
 ### Introduce Equator to Your Project
 
-1. Implement **Equator** to your project through [**JitPack**](https://jitpack.io) or [**Modrinth Maven.**](https://docs.modrinth.com/docs/tutorials/maven/)****
+1. Implement **Equator** to your project through [**JitPack**](https://jitpack.io) or [**Modrinth Maven.**](https://docs.modrinth.com/docs/tutorials/maven/)
 
 {% tabs %}
 {% tab title="Modrinth Maven" %}
@@ -42,7 +42,7 @@ dependencies {
 }
 
 dependencies {
-    modImplementation <a data-footnote-ref href="#user-content-fn-1">"com.github.KrLite:Equator:v?"</a>
+    modImplementation <a data-footnote-ref href="#user-content-fn-1">"com.github.KrLite:Equator-v2:v?"</a>
 }
 </code></pre>
 {% endtab %}
@@ -83,4 +83,4 @@ If you want to only include modules apart from **Equator** perspectively into yo
 
 [^1]: Equivalents to
 
-    `"com.github.KrLite.Equator:build:v?"`
+    `"com.github.KrLite.Equator-v2:build:v?"`
