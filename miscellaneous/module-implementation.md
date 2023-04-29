@@ -25,7 +25,7 @@ repositories {
 {% code overflow="wrap" %}
 ```gradle
 dependencies {
-    modImplementation include("com.github.KrLite:Equator-v2:Animation:v?")
+    modImplementation include("com.github.KrLite.Equator-v2:Animation:v?")
 }
 ```
 {% endcode %}
@@ -37,7 +37,7 @@ Module **Animation** contains classes including **Animation, Interpolation** and
 {% code overflow="wrap" %}
 ```gradle
 dependencies {
-    modImplementation include("com.github.KrLite:Equator-v2:Math:v?")
+    modImplementation include("com.github.KrLite.Equator-v2:Math:v?")
 }
 ```
 {% endcode %}
@@ -49,7 +49,7 @@ Module **Math** contains classes including **Vector, Box, Theory** and **FrameIn
 {% code overflow="wrap" %}
 ```gradle
 dependencies {
-    modImplementation include("com.github.KrLite:Equator-v2:Visual:v?")
+    modImplementation include("com.github.KrLite.Equator-v2:Visual:v?")
 }
 ```
 {% endcode %}
