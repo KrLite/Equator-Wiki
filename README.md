@@ -30,7 +30,7 @@ repositories {
 }
 
 dependencies {
-    modImplementation "maven.modrinth:equator:v?"
+    modImplementation "maven.modrinth:equator:a.b.c-v?"
 }
 ```
 {% endcode %}
@@ -42,13 +42,14 @@ dependencies {
 }
 
 dependencies {
-    modImplementation <a data-footnote-ref href="#user-content-fn-1">"com.github.KrLite:Equator-v2:v?"</a>
+    modImplementation <a data-footnote-ref href="#user-content-fn-1">"com.github.KrLite:Equator-v2:a.b.c-v?"</a>
 }
 </code></pre>
 {% endtab %}
 {% endtabs %}
 
-* `v?` stands for **Equator**'s version, which is **equivalent to the release tag,** for example, `v2.0.0`. Using the latest version is recommended.
+* `a.b.c` stands for **Minecraft** version, you should always use **the full version,** for example, `1.19.4`. If the version does not exist, consider trying again **excluding the min version,** for example, `1.19`. If the version still does not exist, **Equator** may not supporting the target **Minecraft** version.
+* `v?` stands for **Equator** version, which is **equivalent to the release tag,** for example, `v2.0.0`. Using the latest version is recommended.
 * Not all versions support all Minecraft versions, **please check the requirements before implementing.**
 
 If you want to only include modules apart from **Equator** perspectively into your mod, here's an instruction.
@@ -62,7 +63,7 @@ If you want to only include modules apart from **Equator** perspectively into yo
 {% code overflow="wrap" %}
 ```json
 "depends": {
-    "equator": "*"
+    "equator": "a.b.c-v?"
 }
 ```
 {% endcode %}
@@ -83,4 +84,4 @@ If you want to only include modules apart from **Equator** perspectively into yo
 
 [^1]: Equivalents to
 
-    `"com.github.KrLite.Equator-v2:build:v?"`
+    `"com.github.KrLite.Equator-v2:build:a.b.c-v?"`

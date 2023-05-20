@@ -25,7 +25,7 @@ repositories {
 {% code overflow="wrap" %}
 ```gradle
 dependencies {
-    modImplementation include("com.github.KrLite.Equator-v2:Animation:v?")
+    modImplementation include("com.github.KrLite.Equator-v2:Animation:a.b.c-v?")
 }
 ```
 {% endcode %}
@@ -37,7 +37,7 @@ Module **Animation** contains classes including **Animation, Interpolation** and
 {% code overflow="wrap" %}
 ```gradle
 dependencies {
-    modImplementation include("com.github.KrLite.Equator-v2:Math:v?")
+    modImplementation include("com.github.KrLite.Equator-v2:Math:a.b.c-v?")
 }
 ```
 {% endcode %}
@@ -49,7 +49,7 @@ Module **Math** contains classes including **Vector, Box, Theory** and **FrameIn
 {% code overflow="wrap" %}
 ```gradle
 dependencies {
-    modImplementation include("com.github.KrLite.Equator-v2:Visual:v?")
+    modImplementation include("com.github.KrLite.Equator-v2:Visual:a.b.c-v?")
 }
 ```
 {% endcode %}
@@ -58,7 +58,8 @@ Module **Visual** contains classes including **AccurateColor** and **Palette.**
 {% endtab %}
 {% endtabs %}
 
-* `v?` stands for **Equator**'s version, which is **equivalent to the release tag,** for example, `v2.0.0`. Using the latest version is recommended.
+* `a.b.c` stands for **Minecraft** version, you should always use **the full version,** for example, `1.19.4`. If the version does not exist, consider trying again **excluding the min version,** for example, `1.19`. If the version still does not exist, **Equator** may not supporting the target **Minecraft** version.
+* `v?` stands for **Equator** version, which is **equivalent to the release tag,** for example, `v2.0.0`. Using the latest version is recommended.
 * Not all versions support all Minecraft versions, **please check the requirements before implementing.**
 
 > All modules' methods and classes are strictly in line with **Equator**'s, which enables you switching to **Equator** at any time.
