@@ -59,8 +59,10 @@ Module **Visual** contains classes including **AccurateColor** and **Palette.**
 {% endtabs %}
 
 * `a.b.c` stands for **Minecraft** version, you should always use **the full version,** for example, `1.19.4`. If the version does not exist, consider trying again **excluding the min version,** for example, `1.19`. If the version still does not exist, **Equator** may not supporting the target **Minecraft** version.
-* `v?` stands for **Equator** version, which is **equivalent to the release tag,** for example, `v2.0.0`. Using the latest version is recommended.
+* `v?` stands for **Equator** version, which is **equivalent to the release tag,** for example, `v2.4.0`. Using the latest version is recommended.
 * Not all versions support all Minecraft versions, **please check the requirements before implementing.**
+
+**Overall, a legal version is like: `1.19.4-v2.4.0`.**
 
 > All modules' methods and classes are strictly in line with **Equator**'s, which enables you switching to **Equator** at any time.
 
