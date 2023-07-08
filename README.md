@@ -44,7 +44,7 @@ repositories {
 }
 
 dependencies {
-    modImplementation "com.github.KrLite:Equator-v2:build:a.b.c-v?"
+    modImplementation "com.github.KrLite.Equator-v2:build:a.b.c-v?"
 }
 ```
 {% endcode %}
