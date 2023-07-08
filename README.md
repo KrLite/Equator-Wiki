@@ -37,14 +37,17 @@ dependencies {
 {% endtab %}
 
 {% tab title="JitPack" %}
-<pre class="language-gradle" data-title="build.gradle" data-overflow="wrap"><code class="lang-gradle">repositories {
+{% code title="build.gradle" overflow="wrap" %}
+```gradle
+repositories {
     maven { url "https://jitpack.io" }
 }
 
 dependencies {
-    modImplementation <a data-footnote-ref href="#user-content-fn-1">"com.github.KrLite:Equator-v2:a.b.c-v?"</a>
+    modImplementation "com.github.KrLite:Equator-v2:build:a.b.c-v?"
 }
-</code></pre>
+```
+{% endcode %}
 {% endtab %}
 {% endtabs %}
 
@@ -83,7 +86,3 @@ If you want to only include modules apart from **Equator** respectively into you
 {% content-ref url="broken-reference" %}
 [Broken link](broken-reference)
 {% endcontent-ref %}
-
-[^1]: Which is equal to
-
-    `"com.github.KrLite.Equator-v2:build:a.b.c-v?"`
