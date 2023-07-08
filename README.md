@@ -54,7 +54,7 @@ dependencies {
 
 **Overall, a legal version is like: `1.19.4-v2.4.0`.**
 
-If you want to only include modules apart from **Equator** perspectively into your mod, here's an instruction.
+If you want to only include modules apart from **Equator** respectively into your mod, here's an instruction.
 
 {% content-ref url="miscellaneous/module-implementation.md" %}
 [module-implementation.md](miscellaneous/module-implementation.md)
@@ -84,6 +84,6 @@ If you want to only include modules apart from **Equator** perspectively into yo
 [Broken link](broken-reference)
 {% endcontent-ref %}
 
-[^1]: Equivalents to
+[^1]: Which is equal to
 
     `"com.github.KrLite.Equator-v2:build:a.b.c-v?"`
