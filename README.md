@@ -22,20 +22,6 @@ It may be a headache to many modders to render stuffs in Minecraft, through **Mo
 1. Implement **Equator** to your project through [**JitPack**](https://jitpack.io) or [**Modrinth Maven.**](https://docs.modrinth.com/docs/tutorials/maven/)
 
 {% tabs %}
-{% tab title="Modrinth Maven" %}
-{% code title="build.gradle" overflow="wrap" %}
-```gradle
-repositories {
-    maven { url "https://api.modrinth.com/maven" }
-}
-
-dependencies {
-    modImplementation "maven.modrinth:equator:a.b.c-v?"
-}
-```
-{% endcode %}
-{% endtab %}
-
 {% tab title="JitPack" %}
 {% code title="build.gradle" overflow="wrap" %}
 ```gradle
@@ -49,13 +35,35 @@ dependencies {
 ```
 {% endcode %}
 {% endtab %}
+
+{% tab title="Modrinth Maven" %}
+{% code title="build.gradle" overflow="wrap" %}
+```gradle
+repositories {
+    maven { url "https://api.modrinth.com/maven" }
+}
+
+dependencies {
+    // Not recommended
+    modImplementation "maven.modrinth:equator:a.b.c-v?"
+}
+```
+{% endcode %}
+{% endtab %}
 {% endtabs %}
 
-* `a.b.c` stands for **Minecraft** version, you should always use **the full version,** for example, `1.19.4`. If the version does not exist, consider trying again **excluding the min version,** for example, use `1.19` instead of `1.19.4`. If the version still does not exist, **Equator** may not supporting the target **Minecraft** version.
-* `v?` stands for **Equator** version, which is **equivalent to the release tag,** for example, `v2.4.0`. Using the latest version is recommended.
-* Not all versions support all **Minecraft** versions, **please check the requirements before implementing.**
+* `a.b.c` stands for **Minecraft** version.
+  * You should always use **the full version,** for example, `1.20.1`.&#x20;
+  * If the build does not exist, consider trying again **excluding the min version,** for example, use `1.20` instead of `1.20.1`.&#x20;
+  * If the build still does not exist, **Equator** may not support the targeting **Minecraft** version.
+* `v?` stands for **Equator** version.
+  * **Equivalent to the release tag,** for example, `v2.5.1`.&#x20;
+  * Using the latest version is recommended.
+* Different **Equator** versions support different **Minecraft** versions, **please check the requirements before implementing.**
 
 **Overall, a legal version is like: `1.19.4-v2.4.0`.**
+
+***
 
 If you want to only include modules apart from **Equator** respectively into your mod, here's an instruction.
 
@@ -65,6 +73,8 @@ If you want to only include modules apart from **Equator** respectively into you
 
 2. Add the dependency to your `fabric/quilt.mod.json` file.
 
+{% tabs %}
+{% tab title="Fabric" %}
 {% code overflow="wrap" %}
 ```json
 "depends": {
@@ -72,8 +82,23 @@ If you want to only include modules apart from **Equator** respectively into you
 }
 ```
 {% endcode %}
+{% endtab %}
+
+{% tab title="Quilt" %}
+```json
+"depends": [
+    {
+        "id": "equator",
+        "versions": "a.b.c-v?"
+     }
+]
+```
+{% endtab %}
+{% endtabs %}
 
 3. Re-run the gradle task.
+
+***
 
 {% content-ref url="broken-reference" %}
 [Broken link](broken-reference)
