@@ -61,11 +61,11 @@ dependencies {
   * Using the latest version is recommended.
 * Different **Equator** versions support different **Minecraft** versions, **please check the requirements before implementing.**
 
-**Overall, a legal version is like: `1.19.4-v2.4.0`.**
+**Overall, a legal version is like: `1.20.1-v2.5.1`.**
 
-***
-
+{% hint style="info" %}
 If you want to only include modules apart from **Equator** respectively into your mod, here's an instruction.
+{% endhint %}
 
 {% content-ref url="miscellaneous/module-implementation.md" %}
 [module-implementation.md](miscellaneous/module-implementation.md)
