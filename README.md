@@ -75,24 +75,20 @@ If you want to only include modules apart from **Equator** respectively into you
 
 {% tabs %}
 {% tab title="Fabric" %}
-{% code overflow="wrap" %}
-```json
-"depends": {
-    "equator": "a.b.c-v?"
+<pre class="language-json" data-overflow="wrap"><code class="lang-json">"depends": {
+    "equator": "<a data-footnote-ref href="#user-content-fn-1">?</a>"
 }
-```
-{% endcode %}
+</code></pre>
 {% endtab %}
 
 {% tab title="Quilt" %}
-```json
-"depends": [
+<pre class="language-json"><code class="lang-json">"depends": [
     {
         "id": "equator",
-        "versions": "a.b.c-v?"
+        "versions": "<a data-footnote-ref href="#user-content-fn-2">?</a>"
      }
 ]
-```
+</code></pre>
 {% endtab %}
 {% endtabs %}
 
@@ -111,3 +107,7 @@ If you want to only include modules apart from **Equator** respectively into you
 {% content-ref url="broken-reference" %}
 [Broken link](broken-reference)
 {% endcontent-ref %}
+
+[^1]: It is fine for you to only fill up the raw version component, such as `2.5.3`.
+
+[^2]: It is fine for you to only fill up the raw version component, such as `2.5.3`.
