@@ -2,6 +2,8 @@
 description: >-
   New to Equator? Learn here to master this ultimate toolbox which boosts your
   render stuffs in Minecraft.
+cover: https://github.com/KrLite/Equator-v2/blob/artwork/Banner.png?raw=true
+coverY: 52
 layout: landing
 ---
 
