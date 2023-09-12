@@ -17,9 +17,7 @@ It may be a headache to many modders to render stuffs in Minecraft, through **Mo
 
 **Equator** is aimed to be a not-too-complicated library, and humanized experience is the first priority. Throughout your way of rendering, that you can easily get the result you want is always the goal of **Equator.** Features like **immutable classes** and **chaining** are the embodiment of this goal.
 
-## First Steps to Take
-
-### Introduce Equator to Your Project
+## Introduce Equator to Your Project
 
 1. Implement **Equator** to your project through [**JitPack**](https://jitpack.io) or [**Modrinth Maven.**](https://docs.modrinth.com/docs/tutorials/maven/)
 
@@ -54,6 +52,7 @@ dependencies {
 {% endtab %}
 {% endtabs %}
 
+{% hint style="info" %}
 * `a.b.c` stands for **Minecraft** version.
   * You should always use **the full version,** for example, `1.20.1`.&#x20;
   * If the build does not exist, consider trying again **excluding the min version,** for example, use `1.20` instead of `1.20.1`.&#x20;
@@ -62,11 +61,14 @@ dependencies {
   * **Equivalent to the release tag,** for example, `v2.5.1`.&#x20;
   * Using the latest version is recommended.
 * Different **Equator** versions support different **Minecraft** versions, **please check the requirements before implementing.**
+{% endhint %}
 
+{% hint style="success" %}
 **Overall, a legal version is like: `1.20.1-v2.5.1`.**
+{% endhint %}
 
 {% hint style="info" %}
-If you want to only include modules apart from **Equator** respectively into your mod, here's an instruction.
+If you want to only include modules apart from **Equator** into your project perspectively, please follow the instruction below.
 {% endhint %}
 
 {% content-ref url="miscellaneous/module-implementation.md" %}
@@ -96,7 +98,11 @@ If you want to only include modules apart from **Equator** respectively into you
 
 3. Re-run the gradle task.
 
-***
+## Getting Started
+
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}
 
 {% content-ref url="broken-reference" %}
 [Broken link](broken-reference)

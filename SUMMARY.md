@@ -5,15 +5,22 @@
 
 ## 💿 Mathematics
 
-* [Vectors and Boxes](mathematics/vectors-and-boxes.md)
+* [Introduction](mathematics/introduction.md)
+* [Linear Geogebra](mathematics/vectors-and-boxes.md)
 
 ## 🛸 Render
 
-* [Your Render Pipeline](render/your-render-pipeline.md)
+* [Introduction](render/introduction.md)
+* [Your Render Pipelines](render/your-render-pipelines.md)
 
 ## 🎏 Animation
 
+* [Introduction](animation/introduction.md)
 * [The Animation System](animation/the-animation-system.md)
+
+## 🎯 Visual
+
+* [Introduction](visual/introduction.md)
 
 ## Miscellaneous
 
