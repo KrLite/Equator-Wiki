@@ -45,7 +45,7 @@ repositories {
 
 dependencies {
     // Not recommended
-    modImplementation "maven.modrinth:equator:a.b.c-v?"
+    modImplementation "maven.modrinth:equator:?-mcx.x.x?"
 }
 ```
 {% endcode %}
