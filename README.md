@@ -36,7 +36,7 @@ dependencies {
 {% endcode %}
 {% endtab %}
 
-{% tab title="Modrinth Maven" %}
+{% tab title="Modrinth Maven (Unrecommended)" %}
 {% code title="build.gradle" overflow="wrap" %}
 ```gradle
 repositories {
@@ -44,7 +44,6 @@ repositories {
 }
 
 dependencies {
-    // Not recommended
     modImplementation "maven.modrinth:equator:?-mcx.x.x?"
 }
 ```
